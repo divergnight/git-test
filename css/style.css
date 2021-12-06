@@ -1,0 +1,183 @@
+@import	url("./var.css");
+
+@font-face {
+  font-family: FontBlack;
+  src: url("../font/OnePlusSans-Black.ttf");
+}
+
+@font-face {
+  font-family: FontLight;
+  src: url("../font/OnePlusSans-Regular.ttf");
+}
+
+
+body{
+	position: relative;
+	background-color: #000000;
+	padding-top: 55px;
+	color: var(--text-sub-color);
+	font-family: FontLight;
+}
+
+main{
+	position: relative;
+}
+
+h4{
+	padding: 25px;
+	color: white;
+	font-size: 4rem;
+	font-family: FontBlack;
+}
+
+li{
+	list-style: none;
+}
+
+.card{
+	border-color: var(--main-color);
+	background-color: var(--background-color);
+}
+
+.competences .card{
+	width: 10rem;
+	margin: 10px;
+}
+
+
+.competences .card img{
+	width: 50%
+}
+
+.competences .card-body{
+	margin: 5px;
+	padding: 5px;
+}
+
+.competences .card p{
+	padding-top: 20px;
+}
+
+.projets .card{
+	position: relative;
+	margin: 5px;
+	padding-top: 5px;
+	width: 30rem;
+}
+
+.theme{
+	background-color: var(--background-color);
+}
+
+.black{
+	border: none;
+	background-color: var(--background-color);
+}
+
+.card li, .card p{
+	background-color: var(--background-color);
+	border-color: #333;
+	color: var(--text-sub-color);
+}
+
+.card h6, .card h5{
+	padding: 0; margin: 0;
+	color: var(--text-main-color);
+}
+
+.infos h5{ color: #FFA746; }
+.competences h5{ color: #FF4282; }
+.projets h6 {color: #25DDDD;}
+
+.zero{padding: 0; margin: 0;}
+
+.card-img-top{
+	width: 100%;
+}
+
+.vview{
+	background-color: #000;
+}
+
+.balise{
+	position: absolute;
+	padding: 10px;
+}
+
+.infos{
+	position: relative;
+	margin: 0; padding: 0;
+	background-image: url("../img/wallpaper1.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: var(--background-color);
+}
+
+.infos>div{
+	padding-top: 14vw; /*-60 padding navbar -moitié hauteur image*/
+	padding-bottom: 22vw;
+}
+
+.infos .card{
+	padding: 10px;
+	width: 14rem;
+}
+
+.competences{
+	position: relative;
+	margin: 0; padding: 0;
+	padding-top: 10.5vw;
+	padding-bottom: 15.5vw;
+	background-image: url("../img/wallpaper2.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.competences ul{
+	padding-top: 10px;
+}
+
+.projets{
+	position: relative;
+	margin: 0; padding: 0;
+	padding-top: 10.5vw;
+	padding-bottom: 15.5vw;
+
+	background-image: url("../img/wallpaper3.jpg") ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.contacts{
+	color: white;
+	position: relative;
+	margin: 0; padding: 0;
+	padding-top: 45vh;
+	padding-bottom: 45vh;
+}
+
+.endcut{
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	height: 60px;
+}
+
+.begincut{
+	position: absolute;
+	top: 0;
+	width: 100vw;
+	height: 60px;
+}
+
+.sep{
+height: 0vh;
+}
+
+.card-text{
+	text-align: justify;
+	font-size: 0.9rem;
+}
